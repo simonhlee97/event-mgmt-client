@@ -2,7 +2,7 @@ import styles from './app.module.css'
 import { PageRoutes } from './routes'
 import { FaRegUser } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { Search, Sidenav } from './components'
+import { Sidenav } from './components'
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ function HeaderNavbar() {
   return (
     <div className={styles['header-navbar']}>
       <div className={styles['nav-left']}>
-				<Link to="/" className={styles.logo}>
+				<Link to="/" className={`${styles.logo} letter`}>
 					EVENT MANAGER
 				</Link>
 			</div>
