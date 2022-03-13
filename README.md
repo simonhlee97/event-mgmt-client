@@ -12,4 +12,4 @@
 - single Event view
 - integrate with Beege's repo? (connect to backend, database)
 
-![screenshot](assets/eventsapp.jpg)
+![screenshot](assets/eventsapp.jpg?raw=true "title")
