@@ -1,0 +1,42 @@
+/* global styles (will overwrite styles in css modules) */
+/* * {
+  border: 1px dashed white;
+} */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #22272E;
+  overflow-x: hidden;
+  /* color: #adbac7; */
+  color: #fff;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-wrapper {
+  padding: 3em;
+}
+a {
+  text-decoration: none;
+  color: #adbac7;
+}
+a:hover {
+  color: #f5f5f5;
+}
+
+/* global utility classes */
+.text-center {
+  text-align: center;
+}
+.my-4 {
+  margin: 4em 0;
+}
+.letter {
+  letter-spacing: 3px;
+}

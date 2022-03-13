@@ -1,0 +1,53 @@
+.logo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.page {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "nav  foot";
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-columns: 200px 1fr;
+}
+
+.page > header {
+  grid-area: head;
+  height: 50px;
+  border-width: 0 0 1px 0;
+  border-color: #f5f1f1c0;
+  border-style: solid;
+}
+
+/* sidenav */
+.page > nav {
+  grid-area: nav;
+  border-width: 0 1px 0 0;
+  border-color: #f5f1f1c0;
+  border-style: solid;
+  overflow: auto;
+  min-height: 99vh;
+}
+
+.page > main {
+  grid-area: main;
+}
+
+.page > footer {
+  grid-area: foot;
+  text-align: center;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 88%;
+  margin: 0 auto;
+}
