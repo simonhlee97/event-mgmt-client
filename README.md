@@ -10,4 +10,6 @@
 
 - hide the SideNav in smaller, mobile viewports
 - single Event view
-- integrate with backend (connect to Database) and Beege's repo
+- integrate with Beege's repo? (connect to backend, database)
+
+![screenshot](assets/eventsapp.jpg)
