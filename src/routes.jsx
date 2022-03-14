@@ -2,7 +2,7 @@ import React from 'react';
 import About from './pages/About';
 import Home from './pages/Home';
 import { Routes, Route } from 'react-router-dom';
-import { Events, EventDetails } from './components/Events';
+import { Events, EventDetails } from './components/Events/index';
 
 export const PageRoutes = () => {
   return (

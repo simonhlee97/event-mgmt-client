@@ -8,8 +8,9 @@
 
 ## Next Todos:
 
-- hide the SideNav in smaller, mobile viewports
-- single Event view
+- [ ] Hide the SideNav in smaller, mobile viewports)
+- [ ] Single Event view (/events/:id)
+- [ ] CRUD Components and Forms
 - integrate with Beege's repo? (connect to backend, database)
 
 ![screenshot](src/assets/eventsapp.jpg?raw=true "app")
