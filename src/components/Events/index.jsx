@@ -1,5 +1,7 @@
-export * from './Event'
-export * from './EventsList'
+export * from './EventCard'
+export * from './EventDetails'
+export * from './Events'
 export * from './FilterButtons'
-export * from './Search'
+
+
 

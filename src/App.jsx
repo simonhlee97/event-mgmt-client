@@ -2,7 +2,7 @@ import styles from './app.module.css'
 import { PageRoutes } from './routes'
 import { FaRegUser } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { Sidenav } from './components'
+import { Footer, Sidenav } from './components'
 
 export default function App() {
   return (
@@ -12,15 +12,15 @@ export default function App() {
 			<main>
 				<PageRoutes />
 			</main>
-			<footer>Footer</footer>
+			<footer><Footer /></footer>
 		</div>
   )
 }
 
 function HeaderNavbar() {
   return (
-    <div className={styles['header-navbar']}>
-      <div className={styles['nav-left']}>
+		<div className={styles['header-navbar']}>
+			<div className={styles['nav-left']}>
 				<Link to="/" className={`${styles.logo} letter`}>
 					EVENT MANAGER
 				</Link>
@@ -30,6 +30,6 @@ function HeaderNavbar() {
 					<FaRegUser />
 				</Link>
 			</div>
-    </div>
-	)
+		</div>
+  )
 }

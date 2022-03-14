@@ -1,12 +1,18 @@
-.button {
-  background-color: #adadff;
-  margin: 0 1em;
-  width: 100px;
-  height: 30px;
-  border-radius: 6px;
+.btn {
+  margin: 1em;
+  border: none;
+  background: #9a9afc;
+  width: 70px;
+  height: 26px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 7pt;
+  font-weight: 400;
 }
-.button:hover {
+.btn:hover {
   cursor: pointer;
-  background-color: #d2d2ff;
+  background: #bebeff;
+  font-weight: 600;
+  filter: drop-shadow(0 0 0.5rem rgb(120, 120, 124));
 
 }

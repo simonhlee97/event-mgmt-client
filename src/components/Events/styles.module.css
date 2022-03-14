@@ -5,13 +5,15 @@
   background-color: #1c1f26;
   flex-basis: 300px;
   padding: 1em;
-
   margin: 1em;
   color: whitesmoke;
   border-radius: 9px;
   border-color: rgba(168,179,207,0.2);
   border-width: 1px;
   border-style: solid;
+}
+.card:hover {
+  border-color: rgba(225, 228, 235, 0.849);
 }
 .image {
   max-width: 100%;
@@ -22,24 +24,27 @@
 /* flex cards-layout */
 .flex-wrapper  {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
 }
 
 .filter-btn {
-  margin: 0 10px;
+  margin: 1em;
+  border: none;
   background: #9a9afc;
-  width: 90px;
-  height: 30px;
-  border-radius: 10px;
+  width: 70px;
+  height: 26px;
+  border-radius: 4px;
   text-transform: uppercase;
-  font-size: 8pt;
-  font-weight: 300;
+  font-size: 7pt;
+  font-weight: 400;
 }
 .filter-btn:hover {
   cursor: pointer;
   background: #bebeff;
-  font-weight: 500;
+  font-weight: 600;
+  filter: drop-shadow(0 0 0.5rem rgb(120, 120, 124));
+
 }
 
 .search {

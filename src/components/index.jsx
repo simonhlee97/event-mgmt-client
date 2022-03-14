@@ -1,5 +1,4 @@
 export * from './Button'
-export * from './Header'
-export * from './Sidenav'
-export * from './Card'
 export * from './Events'
+export * from './Footer'
+export * from './Sidenav'
