@@ -26,7 +26,7 @@ function HeaderNavbar() {
 				</Link>
 			</div>
 			<div className={styles['nav-right']}>
-				<Link to="/">
+				<Link to="/signin">
 					<FaRegUser />
 				</Link>
 			</div>

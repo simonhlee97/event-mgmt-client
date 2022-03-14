@@ -7,6 +7,7 @@ export const EventDetails = () => {
 	let event = getEvent(parseInt(params.eventId, 10))
 	return (
 		<article className="text-center px-4 py-3">
+			<button className='btn-secondary'>Sign up for this event</button>
 			<h2>Event Name: {event.name}</h2>
 			<p>
 				{event.date}. {event.time}
